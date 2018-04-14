@@ -1,4 +1,4 @@
-# Most Basic React Router 4 Example project implementing React Component
+# Most Basic React Router 4 Example project implementing React Components
 
 ## Available Scripts
 
