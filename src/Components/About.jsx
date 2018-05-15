@@ -1,6 +1,12 @@
-import React, { PureComponent, Fragment } from 'react'
+import React, { Component, Fragment } from 'react'
 
-class About extends PureComponent {
+class About extends Component {
+
+  constructor (props) {
+    super(props)
+    console.log(props)
+  }
+
   render () {
     return (<Fragment>
       <p>This is a very basic example showing how to use React Router 4. I will eventually add an example of this with

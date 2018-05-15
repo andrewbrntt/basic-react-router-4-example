@@ -17,7 +17,7 @@ class App extends Component {
           </ul>
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/about' component={About} />
+            <Route exact path='/about/:id' render={(props) => <About {...props} />} />
             <Route exact path='/pureComponentExample' component={PureComponentExample} />
             <Redirect to='/' />
           </Switch>
